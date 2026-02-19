@@ -5,7 +5,7 @@
   3. Replace below value with your key
 */
 
-const API_KEY = "REPLACE_WITH_YOUR_REAL_KEY";
+const API_KEY = "c60c485";
 
 async function searchMovies() {
   const query = document.getElementById('search').value.trim();
@@ -57,3 +57,4 @@ async function searchMovies() {
 document.getElementById('search').addEventListener('keypress', function(e) {
   if (e.key === 'Enter') searchMovies();
 });
+
